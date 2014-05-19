@@ -77,7 +77,7 @@
                     self.descriptionOfLastFlip = [NSString stringWithFormat:@"Matched %@ & %@ for %d points",
                                                   card.contents,
                                                   [otherContents componentsJoinedByString:@" & "],
-                                                  matchScore * MATCH_BONUS];;
+                                                  matchScore * MATCH_BONUS];
                 }else {
                     for (Card *otherCard in otherCards){
                         otherCard.faceUp = NO;
